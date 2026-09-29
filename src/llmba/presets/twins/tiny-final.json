@@ -1,0 +1,36 @@
+{
+  "batches": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "contexts": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    32768
+  ],
+  "dtype": "fp16",
+  "max_kv_tokens": 65536,
+  "model": {
+    "d_ff": 6912,
+    "d_model": 2560,
+    "head_dim": 128,
+    "n_heads": 20,
+    "n_kv_heads": 4,
+    "n_layers": 4,
+    "name": "tiny-final",
+    "notes": "Final holdout twin for claim P1. Frozen before any twin measurement; run once at Milestone 9.",
+    "schema_version": 1,
+    "vocab": 8192
+  },
+  "schema_version": 1
+}

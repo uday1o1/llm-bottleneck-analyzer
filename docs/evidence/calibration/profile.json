@@ -1,0 +1,35 @@
+{
+  "attn_eff": 0.320992365273603,
+  "capacity_usable": 0.9,
+  "compute_eff": 1.0,
+  "gemm_eff_by_tokens": {
+    "1": 0.9089900370408313,
+    "128": 1.2089124763989472,
+    "16": 0.5402746256906864,
+    "2": 0.4817507650858446,
+    "256": 1.3153577000024541,
+    "32": 0.77277117675341,
+    "4": 0.3762668664345655,
+    "64": 1.0236293009637785,
+    "8": 0.26949736228733456
+  },
+  "hbm_gb": 5.726633984,
+  "hbm_gbps": 85.58098335361389,
+  "kernel_overhead_us": 7.900727214291691,
+  "link_gbps": 0.0,
+  "link_latency_us": 5.0,
+  "mem_eff": 1.0,
+  "memory_type": "measured",
+  "name": "local-mps",
+  "net_eff": 0.8,
+  "notes": "Calibrated from microbenchmarks (achieved, not peak).",
+  "overhead_mode": "additive",
+  "peak_tflops": {
+    "fp16": 1.0889067644159773
+  },
+  "schema_version": 1,
+  "source_urls": [],
+  "tier2_gb": 0.0,
+  "tier2_gbps": 0.0,
+  "unverified": []
+}

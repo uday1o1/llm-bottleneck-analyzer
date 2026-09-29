@@ -1,0 +1,23 @@
+{
+  "capacity_usable": 0.9,
+  "compute_eff": 1.0,
+  "hbm_gb": 5.726633984,
+  "hbm_gbps": 87.97736825421917,
+  "kernel_overhead_us": 5.985102616250515,
+  "link_gbps": 0.0,
+  "link_latency_us": 5.0,
+  "mem_eff": 1.0,
+  "memory_type": "measured",
+  "name": "local-mps",
+  "net_eff": 0.8,
+  "notes": "Calibrated from microbenchmarks (achieved, not peak).",
+  "overhead_mode": "additive",
+  "peak_tflops": {
+    "fp16": 1.0848165260543998
+  },
+  "schema_version": 1,
+  "source_urls": [],
+  "tier2_gb": 0.0,
+  "tier2_gbps": 0.0,
+  "unverified": []
+}

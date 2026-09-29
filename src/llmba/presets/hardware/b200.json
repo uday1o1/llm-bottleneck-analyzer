@@ -1,0 +1,22 @@
+{
+  "hbm_gb": 180,
+  "hbm_gbps": 8000,
+  "link_gbps": 900,
+  "memory_type": "HBM3e",
+  "name": "b200",
+  "notes": "Per-GPU values derived from 8-GPU HGX/DGX B200 totals. L2 taken from the GB200 figure in the Blackwell tuning guide. NVLink5 1.8 TB/s assumed bidirectional (900 GB/s per direction).",
+  "peak_tflops": {
+    "bf16": 2250.0,
+    "fp16": 2250.0,
+    "fp8": 4500.0
+  },
+  "schema_version": 1,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/hgx/",
+    "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+    "https://docs.nvidia.com/cuda/blackwell-tuning-guide/index.html"
+  ],
+  "unverified": [
+    "link_gbps"
+  ]
+}

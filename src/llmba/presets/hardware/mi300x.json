@@ -1,0 +1,20 @@
+{
+  "hbm_gb": 192,
+  "hbm_gbps": 5300,
+  "link_gbps": 448,
+  "memory_type": "HBM3",
+  "name": "mi300x",
+  "notes": "OAM. l2_mb holds the 256 MB Infinity Cache (last-level cache). Infinity Fabric 7 x 128 GB/s bidirectional links; link_gbps = 7 x 64 per direction, assuming all links are usable by the collective.",
+  "peak_tflops": {
+    "bf16": 1307.4,
+    "fp16": 1307.4,
+    "fp8": 2614.9
+  },
+  "schema_version": 1,
+  "source_urls": [
+    "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/data-sheets/amd-instinct-mi300x-data-sheet.pdf"
+  ],
+  "unverified": [
+    "link_gbps"
+  ]
+}

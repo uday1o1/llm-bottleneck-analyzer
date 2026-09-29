@@ -1,0 +1,18 @@
+{
+  "hbm_gb": 141,
+  "hbm_gbps": 4800,
+  "link_gbps": 450,
+  "memory_type": "HBM3e",
+  "name": "h200",
+  "notes": "SXM. L2 assumed equal to H100 (same GH100 die); not stated on the product page.",
+  "peak_tflops": {
+    "bf16": 989.5,
+    "fp16": 989.5,
+    "fp8": 1979.0
+  },
+  "schema_version": 1,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/h200/"
+  ],
+  "unverified": []
+}

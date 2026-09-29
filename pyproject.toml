@@ -1,0 +1,33 @@
+[project]
+name = "llm-bottleneck-analyzer"
+version = "0.1.0"
+description = "LLM inference bottleneck identification: operator-graph roofline, memory-hierarchy intercepts, and calibrated validation."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8"]
+measure = ["torch>=2.4"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+llmba = "llmba.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llmba"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E741"]  # O, S, T follow the equations in docs/methodology.md
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

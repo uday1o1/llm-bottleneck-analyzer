@@ -1,0 +1,18 @@
+{
+  "d_ff": 11008,
+  "d_model": 4096,
+  "head_dim": 128,
+  "n_heads": 32,
+  "n_kv_heads": 32,
+  "n_layers": 32,
+  "name": "llama-2-7b",
+  "notes": "Multi-head attention baseline (n_kv_heads == n_heads).",
+  "published_active_params_b": 6.738417664,
+  "published_params_b": 6.738417664,
+  "schema_version": 1,
+  "source_urls": [
+    "https://huggingface.co/NousResearch/Llama-2-7b-hf/raw/main/config.json",
+    "https://huggingface.co/api/models/NousResearch/Llama-2-7b-hf?expand[]=safetensors"
+  ],
+  "vocab": 32000
+}

@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "source_url": "https://nvidia.github.io/TensorRT-LLM/performance/perf-overview.html",
+  "retrieved": "2026-09-28",
+  "release": "TensorRT-LLM v0.21 data as shown on the page at retrieval",
+  "metric": "Total Output Throughput (tokens/sec), aggregate across all GPUs, offline max-throughput trtllm-bench run, requests at infinite rate, PyTorch backend, FP8 ModelOpt checkpoints",
+  "preconditions": "Dense models; FP8 weights; synthetic random prompts (no prefix reuse); no speculative decoding; no KV or weight offload stated.",
+  "rows": [
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 128,
+      "output_len": 128,
+      "output_tokens_per_s": 26401.48
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 128,
+      "output_len": 128,
+      "output_tokens_per_s": 27027.8
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 128,
+      "output_len": 2048,
+      "output_tokens_per_s": 21413.21
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 128,
+      "output_len": 2048,
+      "output_tokens_per_s": 23102.25
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 1000,
+      "output_len": 1000,
+      "output_tokens_per_s": 14991.62
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 1000,
+      "output_len": 1000,
+      "output_tokens_per_s": 17162.49
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 2048,
+      "output_len": 128,
+      "output_tokens_per_s": 3275.55
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 2048,
+      "output_len": 128,
+      "output_tokens_per_s": 3390.69
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 2048,
+      "output_len": 2048,
+      "output_tokens_per_s": 9462.43
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 2048,
+      "output_len": 2048,
+      "output_tokens_per_s": 11822.14
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 5000,
+      "output_len": 500,
+      "output_tokens_per_s": 3276.47
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 5000,
+      "output_len": 500,
+      "output_tokens_per_s": 3758.08
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h100-sxm",
+      "n_gpus": 1,
+      "prompt_len": 20000,
+      "output_len": 2000,
+      "output_tokens_per_s": 1340.69
+    },
+    {
+      "model": "llama-3.1-8b",
+      "source_model": "Llama 3.1 8B FP8",
+      "hardware": "h200",
+      "n_gpus": 1,
+      "prompt_len": 20000,
+      "output_len": 2000,
+      "output_tokens_per_s": 1705.68
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 128,
+      "output_len": 128,
+      "output_tokens_per_s": 6092.28
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 128,
+      "output_len": 128,
+      "output_tokens_per_s": 6327.98
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 128,
+      "output_len": 2048,
+      "output_tokens_per_s": 5892.94
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 128,
+      "output_len": 2048,
+      "output_tokens_per_s": 7467.36
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 1000,
+      "output_len": 1000,
+      "output_tokens_per_s": 4181.06
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 1000,
+      "output_len": 1000,
+      "output_tokens_per_s": 4773.33
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 2048,
+      "output_len": 128,
+      "output_tokens_per_s": 723.4
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 2048,
+      "output_len": 128,
+      "output_tokens_per_s": 747.55
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 2048,
+      "output_len": 2048,
+      "output_tokens_per_s": 2785.53
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 2048,
+      "output_len": 2048,
+      "output_tokens_per_s": 3775.8
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 5000,
+      "output_len": 500,
+      "output_tokens_per_s": 865.55
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 5000,
+      "output_len": 500,
+      "output_tokens_per_s": 978.28
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h100-sxm",
+      "n_gpus": 2,
+      "prompt_len": 20000,
+      "output_len": 2000,
+      "output_tokens_per_s": 411.85
+    },
+    {
+      "model": "llama-3.1-70b",
+      "source_model": "Llama 3.3 70B FP8 (same architecture as 3.1 70B)",
+      "hardware": "h200",
+      "n_gpus": 2,
+      "prompt_len": 20000,
+      "output_len": 2000,
+      "output_tokens_per_s": 609.42
+    }
+  ]
+}

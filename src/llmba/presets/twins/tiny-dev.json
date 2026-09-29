@@ -1,0 +1,36 @@
+{
+  "batches": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "contexts": [
+    192,
+    384,
+    768,
+    1536,
+    3072,
+    6144,
+    12288,
+    24576
+  ],
+  "dtype": "fp16",
+  "max_kv_tokens": 65536,
+  "model": {
+    "d_ff": 5632,
+    "d_model": 2048,
+    "head_dim": 128,
+    "n_heads": 16,
+    "n_kv_heads": 4,
+    "n_layers": 6,
+    "name": "tiny-dev",
+    "notes": "Development twin: may be measured repeatedly while implementing.",
+    "schema_version": 1,
+    "vocab": 8192
+  },
+  "schema_version": 1
+}

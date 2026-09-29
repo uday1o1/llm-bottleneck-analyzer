@@ -1,0 +1,18 @@
+{
+  "hbm_gb": 80,
+  "hbm_gbps": 2039,
+  "link_gbps": 300,
+  "memory_type": "HBM2e",
+  "name": "a100-80gb",
+  "notes": "SXM. Dense tensor throughput (sparse / 2). NVLink 600 GB/s bidirectional = 300 GB/s per direction.",
+  "peak_tflops": {
+    "bf16": 312.0,
+    "fp16": 312.0
+  },
+  "schema_version": 1,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/a100/",
+    "https://developer.nvidia.com/blog/nvidia-ampere-architecture-in-depth/"
+  ],
+  "unverified": []
+}

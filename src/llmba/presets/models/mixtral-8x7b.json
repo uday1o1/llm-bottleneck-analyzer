@@ -1,0 +1,24 @@
+{
+  "d_ff": 14336,
+  "d_model": 4096,
+  "head_dim": 128,
+  "moe": {
+    "d_ff_expert": 14336,
+    "first_dense": 0,
+    "n_experts": 8,
+    "n_shared": 0,
+    "top_k": 2
+  },
+  "n_heads": 32,
+  "n_kv_heads": 8,
+  "n_layers": 32,
+  "name": "mixtral-8x7b",
+  "published_active_params_b": 12.9,
+  "published_params_b": 46.702792704,
+  "schema_version": 1,
+  "source_urls": [
+    "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/raw/main/config.json",
+    "https://mistral.ai/news/mixtral-of-experts"
+  ],
+  "vocab": 32000
+}

@@ -1,0 +1,18 @@
+{
+  "d_ff": 28672,
+  "d_model": 8192,
+  "head_dim": 128,
+  "n_heads": 64,
+  "n_kv_heads": 8,
+  "n_layers": 80,
+  "name": "llama-3.1-70b",
+  "notes": "Llama 3.3 70B shares this architecture.",
+  "published_active_params_b": 70.553706496,
+  "published_params_b": 70.553706496,
+  "schema_version": 1,
+  "source_urls": [
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-70B/raw/main/config.json",
+    "https://huggingface.co/api/models/unsloth/Meta-Llama-3.1-70B?expand[]=safetensors"
+  ],
+  "vocab": 128256
+}

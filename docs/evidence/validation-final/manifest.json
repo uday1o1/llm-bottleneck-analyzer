@@ -1,0 +1,8 @@
+{
+  "files": {
+    "validation.json": "075b99c2ae87676797710bb82e589b2c698807fb80bf1b85e3da5393e24b4885"
+  },
+  "kind": "validation",
+  "llmba_version": "0.1.0",
+  "python": "3.12.9"
+}

@@ -1,0 +1,19 @@
+{
+  "hbm_gb": 24,
+  "hbm_gbps": 300,
+  "link_gbps": 32,
+  "memory_type": "GDDR6",
+  "name": "l4",
+  "notes": "PCIe card; 'hbm_*' fields hold GDDR6 values. No NVLink: link is PCIe Gen4 x16 (64 GB/s bidirectional = 32 per direction).",
+  "peak_tflops": {
+    "bf16": 121.0,
+    "fp16": 121.0,
+    "fp8": 242.5
+  },
+  "schema_version": 1,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/l4/",
+    "https://images.nvidia.com/aem-dam/Solutions/Data-Center/l4/nvidia-ada-gpu-architecture-whitepaper-v2.1.pdf"
+  ],
+  "unverified": []
+}

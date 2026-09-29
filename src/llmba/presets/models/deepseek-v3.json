@@ -1,0 +1,32 @@
+{
+  "d_ff": 18432,
+  "d_model": 7168,
+  "head_dim": 128,
+  "mla": {
+    "kv_lora_rank": 512,
+    "q_lora_rank": 1536,
+    "qk_nope_head_dim": 128,
+    "qk_rope_head_dim": 64,
+    "v_head_dim": 128
+  },
+  "moe": {
+    "d_ff_expert": 2048,
+    "first_dense": 3,
+    "n_experts": 256,
+    "n_shared": 1,
+    "top_k": 8
+  },
+  "n_heads": 128,
+  "n_kv_heads": 128,
+  "n_layers": 61,
+  "name": "deepseek-v3",
+  "notes": "Main model only; the 14B multi-token-prediction module is excluded, matching the 671B figure.",
+  "published_active_params_b": 37.0,
+  "published_params_b": 671.0,
+  "schema_version": 1,
+  "source_urls": [
+    "https://huggingface.co/deepseek-ai/DeepSeek-V3/raw/main/config.json",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V3"
+  ],
+  "vocab": 129280
+}
