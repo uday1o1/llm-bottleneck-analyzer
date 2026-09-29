@@ -153,3 +153,7 @@ This project's owned contributions are:
 ```
 
 The suite covers golden accounting, property and metamorphic checks, fault injection for malformed specs, CLI exit codes, manifest determinism, report consistency, and the P1 gate logic.
+
+## License
+
+MIT, see [`LICENSE`](LICENSE).
